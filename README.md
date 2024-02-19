@@ -1,14 +1,14 @@
 # M114
 
-## ePortfolio
+In diesem Repository finden Sie die gelösten Aufgaben und Reflexionen, welche während dieses Modules gelöst/geschrieben wurden.
 
-#### Was:
-- Sammlung aller Theorie-Dokumente
-- Sammlung aller Übungsaufgaben, Projekte etc.
-- Tägliche Reflexion (Ziele/Resultate, Knacknüsse, Tools, Kommandos, Fragen)
+## Links
 
-#### Wie:
-- In einer professionellen, IT-würdigen Dateistruktur
+#### Aufgaben
 
-#### Wo:
-- Auf einer Cloud wie GitLab, GitHub etc.
+- [A_Daten_Codieren_Num](Aufgaben/A_Daten_Codieren_Num.md)
+
+
+#### Reflexionen
+
+- [Woche 1: 19.02.2024](Reflexion/19022024.md)
