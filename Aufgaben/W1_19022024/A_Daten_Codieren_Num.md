@@ -38,7 +38,7 @@ Das binäre System besteht nur aus "0" und "1". Die erste Stelle von Rechts hat 
 
 ## 2. Wandeln sie die folgende Dezimalzahl ohne Taschenrechner in die entsprechende Binärzahl um: 911
 
-#### Rechenweg
+### Rechenweg
 
 911 = 512 + 256 + 128 + 8 + 4 + 2 + 1 = 911
 
@@ -50,13 +50,13 @@ Das binäre System besteht nur aus "0" und "1". Die erste Stelle von Rechts hat 
 
 (Es gäbe einen anderen Rechenweg, bei welchem man die Zahl durch 2 rechnet und dann immer denn Rest, welcher nur 0 oder 1 ist nimmt, und so die Binärzahl erhält)
 
-#### Lösung
+### Lösung
 
 911 = 0011 1000 1111
 
 ## 3. Wandeln sie die folgende Binärzahl ohne Taschenrechner in die entsprechende Dezimalzahl um: 1011'0110
 
-#### Rechenweg
+### Rechenweg
 
 1011 0110 = 2 + 4 + 16 + 32 + 128 = 1011 0110
 
@@ -65,13 +65,13 @@ Das binäre System besteht nur aus "0" und "1". Die erste Stelle von Rechts hat 
 
 160 + 22 = 182
 
-#### Lösung
+### Lösung
 
 1011 0110 = 182
 
 ## 4. Wandeln sie die folgende Binärzahl ohne Taschenrechner in die entsprechende Hexadezimalzahl um: 1110'0010'1010'0101
 
-#### Rechenweg
+### Rechenweg
 
 1110 0010 1010 0101
 
@@ -82,7 +82,7 @@ Das binäre System besteht nur aus "0" und "1". Die erste Stelle von Rechts hat 
 
 E2A5
 
-#### Lösung
+### Lösung
 
 1110 0010 1010 0101 = E2A5
 
@@ -90,12 +90,12 @@ E2A5
 Beachten sie, dass für das Resultat ebenfalls nur 8 Binärstellen zur Verfügung 
 stehen.
 
-#### Rechenweg
+### Rechenweg
 
 1101 1001 +
 0111 0101 = 2 + 4 + 8 + 32 + 32 + 128 + 128 = 256 + 64 + 14 = 334 = 0001 0100 1110
 
-#### Lösung
+### Lösung
 
 Da nur 8 Binärstellen für das Ergebnis zur Verfügung stehen, wird der Übertrag ignoriert. Die Lösung lautet also:
 0100 1110
@@ -103,7 +103,7 @@ Da nur 8 Binärstellen für das Ergebnis zur Verfügung stehen, wird der Übertr
 ## 6. Was könnten die beiden folgenden binären Wert für eine Bedeutung haben?
 (Tipp: a. ins Dezimalsystem umrechnen, b. ins Hexadezimalsystem umrechnen)
 
-#### a. 1100’0000.1010’1000.0100’1100.1101’0011
+### a. 1100’0000.1010’1000.0100’1100.1101’0011
 
 1100'0000 -> 192
 1010'1000 -> 168
@@ -115,7 +115,7 @@ Also:
 
 192.168.76.211 sieht aus wie eine IP-Adresse.
 
-#### b. 1011’1110-1000’0011-1000’0101-1101’0101-1110’0100-1111’1110
+### b. 1011’1110-1000’0011-1000’0101-1101’0101-1110’0100-1111’1110
 
 1011'1110 -> BE
 1000'0011 -> 83
@@ -131,18 +131,18 @@ BE-83-85-D5-E4-FE sieht aus wie eine MAC-Adresse
 
 ## 8. Dimensionieren sie für den Matterhorn-Express, wo insgesamt 107 Gondeln die Touristen von Zermatt auf den Trockenen-Steg befördern, die Codebreite des Binärcodes für die Kabinenzählung.
 
-#### Rechenweg
+### Rechenweg
 
 107 = 0110 1011
 
-#### Lösung 
+### Lösung 
 
 Es werden 7 Stellen für den Binärcode benötigt.
 
 ## 9. Sie untersuchen einen Arbeitsspeicher mit 12-Bit-Adress- bzw. 16-Bit-Datenbus.
 Welche Speicherkapazität in kiB besitzt dieser? (Hinweis: 1kiB=1024B)
 
-#### Rechenweg + Lösung
+### Rechenweg + Lösung
 
 2^12 = 4'096 
 4096 * 16-Bit-Datenbus = 65'536 
@@ -151,11 +151,11 @@ Welche Speicherkapazität in kiB besitzt dieser? (Hinweis: 1kiB=1024B)
 
 ## 10. Zwei Geräte sind mit einer seriellen Leitung und zusätzlichem Taktsignal verbunden. Das Taktsignal beträgt 1MHz.
 
-#### a. Wie viele Bytes können damit pro Sekunde übertragen werden?
+### a. Wie viele Bytes können damit pro Sekunde übertragen werden?
 
 1MHz / Byte (8 Bits) = 8MBits = 1MB
 
-#### b. Wie viele Bytes pro Sekunde könnten übertragen werden, wenn die Verbindung der beiden Geräte nicht seriell, sondern 8 Bit-parallel wäre?
+### b. Wie viele Bytes pro Sekunde könnten übertragen werden, wenn die Verbindung der beiden Geräte nicht seriell, sondern 8 Bit-parallel wäre?
 
 Genau gleich, da 8 Bit gesendet werden, also einen Byte. Da die Taktfrequenz immernoch 1MHz ist, werden pro Takt 8 Bit (parallel) versendet. Also wieder:
 
@@ -163,7 +163,7 @@ Genau gleich, da 8 Bit gesendet werden, also einen Byte. Da die Taktfrequenz imm
 
 ## 13. Erstellen sie die Wahrheitstabellen für die folgenden Funktionen:
 
-#### a. Logisch UND/AND (mit zwei Eingangs- und einer Ausgangsvariablen)
+### a. Logisch UND/AND (mit zwei Eingangs- und einer Ausgangsvariablen)
 | Eingang A | Eingang B | Ausgang |
 |-----------|-----------|---------|
 | 0         | 0         | 0       |
@@ -171,7 +171,7 @@ Genau gleich, da 8 Bit gesendet werden, also einen Byte. Da die Taktfrequenz imm
 | 1         | 0         | 0       |
 | 1         | 1         | 1       |
 
-#### b. Logisch ODER/OR (mit zwei Eingangs- und einer Ausgangsvariablen)
+### b. Logisch ODER/OR (mit zwei Eingangs- und einer Ausgangsvariablen)
 | Eingang A | Eingang B | Ausgang |
 |-----------|-----------|---------|
 | 0         | 0         | 0       |
@@ -179,13 +179,13 @@ Genau gleich, da 8 Bit gesendet werden, also einen Byte. Da die Taktfrequenz imm
 | 1         | 0         | 1       |
 | 1         | 1         | 1       |
 
-#### c. Logisch NICHT/NOT (mit einer Eingangs- und einer Ausgangsvariablen)
+### c. Logisch NICHT/NOT (mit einer Eingangs- und einer Ausgangsvariablen)
 | Eingang | Ausgang |
 |---------|---------|
 | 0       | 1       |
 | 1       | 0       |
 
-#### d. Logisch EXOR (mit zwei Eingangs- und einer Ausgangsvariablen)
+### d. Logisch EXOR (mit zwei Eingangs- und einer Ausgangsvariablen)
 | Eingang A | Eingang B | Ausgang |
 |-----------|-----------|---------|
 | 0         | 0         | 0       |
@@ -196,8 +196,13 @@ Genau gleich, da 8 Bit gesendet werden, also einen Byte. Da die Taktfrequenz imm
 ## 14. Eine in der Computertechnik wichtige mathematische Funktion ist die Restwert- oder Modulo-Funktion mit dem in z.B. Java und C verwendeten Operationszeichen %. 
 
 Versuchen sie nun die folgende Berechnungen auszuführen. Was stellen sie fest?
- a. 11 % 2 = 1
- b. 10 % 2 = 0
- c. 10 % 3 = 1
- d. 10 % 5 = 0
- e. 10 % 9 = 1
+
+- a. 11 % 2 = 1
+- b. 10 % 2 = 0
+- c. 10 % 3 = 1
+- d. 10 % 5 = 0
+- e. 10 % 9 = 1
+
+### Antwort:
+
+Die Modulo-Operation (%) berechnet den Rest einer Division der ersten Zahl durch die Zweite. Wenn der Rest 0 ist, bedeutet dies, dass die erste Zahl ohne Rest durch die zweite teilbar ist. Ansonsten ergibt sich der Rest der Division als Ergebnis der Modulo-Operation.
