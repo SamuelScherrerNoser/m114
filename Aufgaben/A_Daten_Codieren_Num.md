@@ -9,6 +9,7 @@ Studieren sie nun ihre fertig ausgefüllte Tabelle, insbesondere die Kolonnen mi
 Binärwerten. Was stellen sie fest?
 
 #### Lösung
+
 | Dezimal | Hexadezimal | Binär       | Binär       | Binär       | Binär       |
 |---------|-------------|-------------|-------------|-------------|-------------|
 | 0       | 0           | 0000        | 0000        | 0000        | 0000        |
